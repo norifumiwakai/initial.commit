@@ -1,0 +1,638 @@
+body{
+  background-color: #fefffb;
+  font-size: 14px;
+  color: #535353;
+  font-family: 'Yomogi', cursive;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #535353;
+}
+li {
+  list-style: none;
+}
+.logo{
+  margin: 30px 0 0 80px;
+  height: 80px;
+}
+.fv{
+  display: flex;
+  justify-content: space-between;
+}
+.fv1{
+  margin: 180px 0 0 80px;  
+  position: absolute;
+  z-index: 1;
+}
+h1{
+  font-size: 54px;
+  letter-spacing: 10px;
+}
+.fv1 p:first-child{
+  margin-top: 100px;
+}
+.fv-text{
+  font-size: 28px;
+  letter-spacing: 5px;
+  margin-top: 30px;
+}
+.fv-btn{
+  font-size: 28px;
+  background-color: #baf4f4;
+  padding: 20px 100px;
+  width: 170px;
+  border-radius: 50px;
+}
+.fv-ph{
+  margin-top: -130px;
+  position: relative;
+  left: 50%;
+  z-index: 0;
+}
+.fv-ph.ph{
+  display: none;
+}
+
+.fv-ph1{
+  width: 728px;
+  height: 878px;
+  object-fit: cover;
+  object-position: 0% 100%;
+}
+.odd{
+  background-image: url(./lpimages/青背景.png);
+  background-size: 1440px 700px;
+  background-repeat: no-repeat;
+}
+.odd-group,.evn-group{
+text-align: center;
+margin: auto;
+width: 1000px;
+}
+.odd-group,.evn-group{
+width: 700px;
+}
+.inner-wrapper-group{
+  background-image: url(./lpimages/白楕円.png);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.inner-wrapper-group:nth-child(3){
+  margin-right: 0px;
+}
+.inner-wrapper{
+  display: flex;
+  margin-top: 100px;
+  margin-right: 30px;
+  padding-bottom: 163px;
+  justify-content: center;
+}
+.inner-wrapper-text{
+  width: 115px;
+  padding: 25px 63px 149px 47px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.inner-wrapper-group:nth-child(2){
+  margin-top: 50px;
+  padding-top: 15px;
+}
+.inner-wrapper-group:nth-child(3){
+  padding-top: 20px;
+}
+h2{
+  margin-top: 80px;
+  padding-top: 100px;
+  font-size: 24px;
+}
+.group-title{
+  padding-top: 0;
+  margin-top: 0;
+}
+.li-text,.plan-No{
+  color: #baf4f4;;
+}
+
+
+.ul-text{
+  font-size: 18px;
+}
+.evn-group3:first-child{
+  margin-top: 150px;
+}
+.li-text,
+.plan-No{
+  font-size: 80px;
+}
+.li-text2{
+  font-size: 22px;
+  margin-top: 148px;
+  margin-left: 9px;
+}
+.li-text3{
+  width: 220px;
+  margin-top: -51px;
+  margin-left: 45px;
+  line-height: 30px;
+}
+.li-text,.li-text2,.li-text3,
+.plan-No,.plan-titele,.plan-text{
+  text-align: left;
+}
+.li-nunber{
+  display: flex;
+}
+.evn-group3:first-of-type,.plan:first-of-type{
+  margin-top: 100px;
+}
+.evn-group3:nth-child(odd){
+  margin-left: 420px;
+}
+.evn-group2{
+  padding-bottom: 200px;
+}
+
+.ul-text{
+  font-size: 18px;
+  margin-top: 30px;
+}
+.li-ph{
+  width: 100px;
+  margin-top: -30px;
+}
+.li-text2-odd{
+  font-size: 14px;
+  width: 120px;
+  margin: auto;
+  margin-top: 30px;
+}
+.service{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.service1{
+  width: 117px;
+  padding: 0px 39px 70px 27px;
+  background-image: url(./lpimages/白楕円.png);
+  background-size: 170px 170px;
+  background-repeat: no-repeat;
+}
+.service1:nth-child(2),
+.service1:nth-child(3){
+  margin-top: 40px;
+}
+
+.junbi{
+  width: 900px;
+}
+.odd-group2{
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-around;
+}
+.odd-group3{
+  width: 250px;
+  height: 250px;
+  background-image: url(./lpimages/楕円.png);
+  background-size: 250px 227px;
+  background-repeat: no-repeat;
+}
+.title-text{
+  width: 150px;
+  text-align: left;
+  margin-left: 59px;
+  margin-top: -19px;
+}
+.li-ph.second{
+margin-top: -50px;
+width: 120px;
+}
+.li-text1{
+  font-size: 24px;
+}
+.li-text2-2{
+  font-size: 14px;
+  margin-top: -14px;
+}
+
+.plan{
+  width: 230px;
+}
+.plan:nth-child(odd){
+  margin-left: 500px;
+}
+.plan-titele,.plan-text{
+  margin-left: 30px;
+}
+.plan-titele{
+  font-size: 20px;
+  margin-top: 50px;
+}
+.plan-text{
+  margin-top: 30px;
+}
+.nagare{
+  padding-bottom: 300px;
+}
+
+.soudan{
+  width: 300px;
+}
+.inner-wrapper-text2:nth-child(1){
+  margin-top: 40px;
+}
+.inner-wrapper-text2{
+  margin-top: 15px;
+}
+.inner-wrapper-text-btn{
+  margin: auto;
+  margin-top: 60px;
+  background-color: #baf4f4;
+  padding: 10px 50px ;
+  border-radius: 50px;
+  width: 100px;
+}
+.soudan-ph{
+  width: 300px;
+  margin-top: 50px;
+}
+
+
+
+.odd-group.qagroup{
+  width: 820px;
+}
+.inner-wrapper-qa{
+font-size: 40px;
+}
+.inner-wrapper.q,.inner-wrapper.a{
+  justify-content: start;
+  padding-bottom: 0;
+  margin: auto;
+  margin-top: 150px;
+  text-align: right;
+}
+.inner-wrapper.qa{
+  justify-content: start;
+  margin-top: 150px;
+  text-align: right;
+}
+.inner-wrapper-text.q{
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.inner-wrapper-text.a{
+  width: 340px;
+  padding-left: 20px;
+}
+.odd.long{
+  background-image: url(./lpimages/青背景長い.png);
+  background-size: 1440px 2222px;
+  background-repeat: no-repeat;
+}
+
+.inner-wrapper.qa.ans{
+  background-image: url(./lpimages/楕円.png);
+  background-size: 500px 350px;
+  background-repeat: no-repeat;
+  margin-left: 300px;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-bottom: 145px;
+}
+.inner-wrapper.qa.ans:last-of-type{
+  padding-bottom: 321px;
+}
+.inner-wrapper.qa{
+  margin-top: 100px;
+  padding-bottom: 0;
+  height: 100px;
+}
+
+.toi{
+  width: 700px;
+}
+.plan-No.q,.plan-No.a{
+  margin-top: 0;
+}
+.inner-wrapper-text.q,.inner-wrapper-text.a{
+  padding: 57px 63px 0px 21px;
+  margin-top: 0;
+}
+form{
+  background-color: #FFF;
+  margin-top: 70px;
+  text-align: left;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+form div{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 18px;
+  justify-content: inherit;
+  list-style: none;
+}
+.form2,.form3,.from4{
+  border-radius: 50px;
+  border: solid 1px #e1e1e1;
+  box-shadow: 2px 2px 12px 2px #fefffb;
+}
+
+.form2{
+  width: 300px;
+  height: 40px;
+  text-align: right;
+}
+.form4{
+  margin: auto;
+  margin-top: 120px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #baf4f4;
+  border-color: #baf4f4;
+  display: block;
+}
+
+
+
+footer{
+  background-image: url(./lpimages/青下背景.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 400px;
+  margin-top: 100px;
+}
+.footer-inner{
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+.fotr{
+  margin-left: 0;
+  margin-top: 150px;
+}
+footer div p{
+  margin-top: 50px;
+}
+.small{
+  margin-top: 60px;
+}
+
+
+/* ------------------------------------ */
+@media screen and (max-width:425px){
+  .logo{
+    margin: 20px 0 0 20px;
+    height: 30px;
+  }
+  .fv{
+    display: block;
+    height: 300px;
+  }
+  .fv1{
+    margin: 100px 0 0 20px;
+  }
+  h1{
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+  .fv-text{
+    font-size: 8px;
+    margin-top: 10px;
+  }
+  .fv-btn{
+    font-size: 8px;
+    padding: 10px 40px;
+    width: 60px;
+  }
+  .fv1 p:first-child{
+    margin-top: 30px;
+  }
+  .fv-ph{   
+    width: 228px;
+    margin-top: 0px;
+    left: 46%;
+  }
+  .fv-ph1{
+    display: none;
+    margin-top: -50px;
+    left: 46%;
+  }
+  .fv-ph1.pn{
+    display: block;
+    width: 228px;
+    height: 278px;
+  }
+
+.odd-group,.evn-group{
+    width: 425px;
+}
+h2,.inner-wrapper{
+  width: 257px;
+  margin: auto;
+  margin-top: 100px;
+}
+.soudan h2{
+  margin-top: 183px;
+}
+.inner-wrapper{
+
+  display: block;
+  margin-top: 100px;
+  margin-right: none;
+}
+.inner-wrapper-group {
+  margin-right: 0px;
+}
+.inner-wrapper-text{
+  width: 115px;
+  padding: 40px 63px 149px 55px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.inner.odd{
+  background-image: url(./lpimages/青背景長い.png);
+  background-size: 425px 1362px;
+}
+.odd{
+  background-image: url(./lpimages/青背景長い.png);
+  background-size: 425px 1362px;
+}
+.odd.long{
+  background-image: url(./lpimages/青背景長い.png);
+  background-size: 425px 2320px;
+}
+.inner-wrapper-group{
+  background-image: url(./lpimages/白楕円.png);
+  background-size: 230px 230px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.group-title{
+  width: 180px;
+}
+.kaiketu{
+  width: 300px;
+}
+.evn-group3:first-of-type{
+  margin-top: 50px;
+}
+.evn-group3,.evn-group3:nth-child(odd),
+.plan,.plan:nth-child(odd){
+  width: 208px;
+  margin: auto;
+  margin-top: 100px;
+}
+.nagare{
+  padding-bottom: 100px;
+}
+.plan-titele{
+  margin-top: -89px;
+}
+.plan-No,.li-text{
+  font-size: 60px;
+}
+.li-nunber{
+  width: 230px;
+}
+.li-text2{
+  margin-top: 153px;
+}
+.li-text2.a{
+  margin-top: 105px;
+}
+.li-text3 {
+  width: 127px;
+  margin-top: -65px;
+  margin-left: 30px;
+  line-height: 20px;
+}
+.ul-text {
+width: 320px;
+margin: auto;
+margin-top: 0px;
+}
+.nanika{
+  margin-top: 50px;
+}
+.evn-group2 {
+  padding-bottom: 50px;
+}
+.service{
+  display: block;
+  width: 200px;
+  margin: auto;
+  margin-top: 100px;
+}
+.service1,
+.service1:nth-child(2), .service1:nth-child(3){
+  margin-top: 80px;
+}
+
+.odd-group2 {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  width: 250px;
+}
+.odd-group3 {
+  margin-top: 100px;
+  width: 250px;
+}
+.plan-text {
+  width: 144px;
+  letter-spacing: 3px;
+}
+.title-text{
+  margin-top: -34px;
+  margin-left: 67px;
+}
+.inner-wrapper-text-btn {
+  width: 100px;
+  margin: auto;
+  margin-top: 60px;
+}
+.odd-group.qagroup {
+  width: 425px;
+  
+}
+
+.inner-wrapper.qa.ans{
+  display: flex;
+  width: 303px;
+  justify-content: center;
+  padding-left: 0px;
+}
+.plan-No.a,.plan-No.q{
+  width: 35px;
+  margin-top: 14px;
+}
+.plan-No.q{
+  margin-bottom: -61px;
+}
+.inner-wrapper-text.q,.inner-wrapper-text.a {
+  width: 200px;
+}
+.inner-wrapper-text.q {
+  padding: 0px 63px 149px 37px;
+}
+.inner-wrapper-text.a {
+  width: 200px;
+  padding: 44px 0 0 0 ;
+}
+.inner-wrapper.qa{
+    padding-bottom: 80px;
+}
+.inner-wrapper.qa.ans {
+    background-size: 300px 235px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 119px;
+}
+.inner-wrapper.qa.ans:last-child{
+    background-size: 300px 293px;
+    padding-bottom:204px;
+}
+.inner-wrapper-text.a {
+  font-size: 15px;
+}
+form div{
+  display: block;
+  margin-left: 0;
+}
+
+form{
+  margin-top: 0;
+}
+.form2{
+  margin-top: 20px;
+  width:330px;
+}
+
+
+footer {
+  background-image: url(./lpimages/青下背景.png);
+  background-repeat: no-repeat;
+  background-size: 425px 400px;
+  width: 425px;
+  height: 150px;
+  margin-top: 100px;
+}
+footer div p {
+  margin-top: 10px;
+}
+footer .logo{
+  margin: 50px 0 0 0 ;
+}
+}
